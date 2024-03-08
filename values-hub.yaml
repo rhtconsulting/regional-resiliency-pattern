@@ -107,17 +107,17 @@ clusterGroup:
         jsonPointers:
           - /spec/plugins
 
-    rdr:
-      name: regional-dr
-      namespace: regional-dr
-      project: opp
-      path: charts/hub/rdr
-
-    rdrtrigger:
-      name: regional-dr-trigger
-      namespace: regional-dr-trigger
-      project: opp
-      path: charts/hub/rdrtrigger
+            #    rdr:
+            #      name: regional-dr
+            #      namespace: regional-dr
+            #      project: opp
+            #      path: charts/hub/rdr
+            #
+            #    rdrtrigger:
+            #      name: regional-dr-trigger
+            #      namespace: regional-dr-trigger
+            #      project: opp
+            #      path: charts/hub/rdrtrigger
 
     vault:
       name: vault
