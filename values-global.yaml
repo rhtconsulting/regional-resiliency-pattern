@@ -17,7 +17,7 @@ regionalDR:
               aws:
                 type: m5.2xlarge
                 zones:
-                - eu-central-1a
+                - us-east-1a
           compute:
           - name: worker
             replicas: 5
@@ -25,7 +25,7 @@ regionalDR:
               aws:
                 type: m5.2xlarge
                 zones:
-                - eu-central-1a
+                - us-east-1a
           networking:
             clusterNetwork:
             - cidr: 10.128.0.0/14
@@ -37,7 +37,7 @@ regionalDR:
             - 172.30.0.0/16
           platform:
             aws:
-              region: eu-central-1
+              region: us-east-1
               userTags:
                 project: ValidatedPatterns
 
@@ -58,7 +58,7 @@ regionalDR:
               aws:
                 type: m5.2xlarge
                 zones:
-                - eu-central-1a
+                - us-east-1a
           compute:
           - name: worker
             replicas: 5
@@ -66,7 +66,7 @@ regionalDR:
               aws:
                 type: m5.2xlarge
                 zones:
-                - eu-central-1a
+                - us-east-1a
           networking:
             clusterNetwork:
             - cidr: 10.132.0.0/14
@@ -78,7 +78,7 @@ regionalDR:
             - 172.31.0.0/16
           platform:
             aws:
-              region: eu-central-1
+              region: us-east-1
               userTags:
                 project: ValidatedPatterns
 
