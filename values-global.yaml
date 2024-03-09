@@ -4,7 +4,7 @@ regionalDR:
     globalnetEnabled: false
     clusters:
       - name: ocp-primary
-        version: 4.14.12
+        version: 4.14.15
         install_config:
           apiVersion: v1
           metadata:
@@ -45,7 +45,7 @@ regionalDR:
           sshKey: ""
           pullSecret: ""
       - name: ocp-secondary
-        version: 4.14.12
+        version: 4.14.15
         install_config:
           apiVersion: v1
           metadata:
