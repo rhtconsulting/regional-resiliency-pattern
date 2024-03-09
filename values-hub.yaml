@@ -31,6 +31,7 @@ clusterGroup:
     acm:
       name: advanced-cluster-management
       namespace: open-cluster-management
+      channel: release-2.9
 
     acs:
       name: rhacs-operator  #packageName
