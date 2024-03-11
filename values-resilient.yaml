@@ -2,6 +2,9 @@ clusterGroup:
   name: resilient
   isHubCluster: false
 
+  namespaces:
+    - stackrox
+
   subscriptions:
     odf:
       name: odf-operator
