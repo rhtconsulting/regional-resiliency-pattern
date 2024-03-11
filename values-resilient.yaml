@@ -5,11 +5,15 @@ clusterGroup:
   namespaces:
     - stackrox
     - openshift-storage
+    - policies
 
   subscriptions:
     odf:
       name: odf-operator
       namespace: openshift-storage
+
+  projects:
+    - opp
 
   applications:
     storage:
