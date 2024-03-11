@@ -113,6 +113,11 @@ clusterGroup:
       namespace: regional-dr
       project: opp
       path: charts/hub/rdr
+      ignoreDifferences:
+      - group: internal.open-cluster-management.io
+        kind: ManagedClusterInfo
+        jsonPointers:
+          - /spec/loggingCA
     
     rdrtrigger:
       name: regional-dr-trigger
