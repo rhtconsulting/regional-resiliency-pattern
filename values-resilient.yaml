@@ -2,14 +2,14 @@ clusterGroup:
   name: resilient
   isHubCluster: false
 
-subscriptions:
-  odf:
-    name: odf-operator
-    namespace: openshift-storage
+  subscriptions:
+    odf:
+      name: odf-operator
+      namespace: openshift-storage
 
-applications:
-  storage:
-    name: storage
-    namespace: openshift-storage
-    project: opp
-    path: charts/hub/odf
+  applications:
+    storage:
+      name: storage
+      namespace: openshift-storage
+      project: opp
+      path: charts/hub/odf
